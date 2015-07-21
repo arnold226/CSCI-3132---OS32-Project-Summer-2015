@@ -75,28 +75,28 @@ public:
 /**
  * Sample demo
  */
-int main(int argc, const char * argv[]){
-
-	Command* command = new ListItems(argv[1]);
-
-	//make sure path name was provided
-	if(argc != 2){
-
-		cout<<"Usage: program_name path_name\n";
-		return 0;
-
-	}
-
-	//call execute to display list of files
-	if(command->execute()){
-		cout<<"\nSuccess\n";
-
-	}else{
-		cout<<"\nFailure\n";
-	}
-
-	return 0;
-}
+//int main(int argc, const char * argv[]){
+//
+//	Command* command = new ListItems(argv[1]);
+//
+//	//make sure path name was provided
+//	if(argc != 2){
+//
+//		cout<<"Usage: program_name path_name\n";
+//		return 0;
+//
+//	}
+//
+//	//call execute to display list of files
+//	if(command->execute()){
+//		cout<<"\nSuccess\n";
+//
+//	}else{
+//		cout<<"\nFailure\n";
+//	}
+//
+//	return 0;
+//}
 
 
 
